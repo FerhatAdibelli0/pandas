@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7a5433-879d-4cd1-a497-5d0ad07833ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/50_states.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blank_states_img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_learn_states.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20240820.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/ferhat-new.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/ferhat.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/main-lecture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old/squirrel_color_count" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +29,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.comprehentions.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/old" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/old" />
     </key>
   </component>
   <component name="SharedIndexes">

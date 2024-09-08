@@ -1,3 +1,5 @@
+import pandas
+
 # List Comprehension
 listing = ["ahmet", "ferhat", "ali", "smith"]
 new_listing = [item + "@hotmail.com" for item in listing if len(item) > 4]
@@ -13,14 +15,13 @@ obj = {
 new_obj = {key: f"{value}@hotmail.com" for (key, value) in obj.items()}
 # print(new_obj)
 
-data = {
-    "names": ["ferhat", "ahmet", "murat"],
-    "ages": [12, 45, 67]
-}
+# data = {
+#     "names": ["ferhat", "ahmet", "murat"],
+#     "ages": [12, 45, 67]
+# }
 
-import pandas
 
-pandas_data = pandas.DataFrame(data)
+# pandas_data = pandas.DataFrame(data)
 
 # Loop through a data frame
 # for (key, value) in pandas_data.items():
@@ -34,6 +35,13 @@ csv_data = pandas.read_csv("nato_phonetic_alphabet.csv")
 new_data = {row.letter: row.code for (_, row) in csv_data.iterrows()}
 
 
-name = input("Give me a word ?")
-codes = [new_data[item] for item in name.upper()]
-print(codes)
+def guess_word():
+    try:
+        name = input("Give me a word ?")
+        new_codes = [new_data[item] for item in name.upper()]
+        print(new_codes)
+    except KeyError:
+        guess_word()
+
+
+guess_word()
